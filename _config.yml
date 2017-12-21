@@ -168,7 +168,7 @@ profile:
   enabled: true # Whether to show profile bar
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 昵称
+  author: KEVIN
   author_title: Love & Life & Code
   author_description: 爱唱歌、爱摄影、爱玩魔方、爱创造。
   location: HangZhou, China
