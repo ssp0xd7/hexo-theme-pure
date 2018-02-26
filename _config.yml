@@ -11,7 +11,7 @@ menu:
 
 # Enable/Disable menu icons.（font awesome）
 menu_icons:
-  enable: true  # 是否启用导航菜单图标
+  enable: false  # 是否启用导航菜单图标
   home: fa-dashboard
   archives: fa-delicious
   categories: fa-folder
@@ -31,10 +31,10 @@ site:
     width: 40
     height: 40
     url: ../images/logo.png
-  title: Hexo # 页面title
+  title: kevin_mit # 页面title
   favicon: /favicon.png
   board: <p>欢迎交流与分享经验!</p> # 站点公告
-  copyright: false # 底部版权信息
+  copyright: true # 底部版权信息
 
 # config
 config:
@@ -106,17 +106,17 @@ github:
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
-  type: youyan  # 启用哪种评论系统
+  type: gitment  # 启用哪种评论系统
   disqus:  # enter disqus shortname here
   youyan: 
-    uid: 1783844 # enter youyan uid 
+    uid: # enter youyan uid 
   livere:
     uid: # enter youyan uid 
   gitment:
-    githubID: 
-    repo: 
-    ClientID: 
-    ClientSecret: 
+    githubID: ssp0xd7
+    repo: githubio-comments
+    ClientID: 433ededfd38c7605b879
+    ClientSecret: 8ee504f2d4e34e3827e5e4893353259d469300e6
     lazy: false
 
 # douban 豆瓣书单
@@ -179,10 +179,10 @@ profile:
       github: https://github.com/ssp0xd7
       weibo: http://weibo.com/cofess
       twitter: https://twitter.com/iwebued
-      facebook: /
+      paper-plane: mailto:ssp0xd7@gamil.com
       # dribbble: /
       # behance: https://www.behance.net/cofess
-      # rss: atom.xml
+      rss: atom.xml
     link_tooltip: false # enable the social link tooltip, options: true, false
   # My Skills 
   skills:
